@@ -1,0 +1,110 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>cube_t1</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>AZM4xrns8su+6zwil+AGx7UrEyM=2017-04-19 12:27:39 AM2017-04-18 7:42:04 PM</TimeStamp>
+        <ID>
+          <String>Analytics Yelp</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>3eqxdqC6jy+C0F+W8sHvyvDAp5s=2017-04-18 10:56:25 PM2017-04-18 7:42:04 PM</TimeStamp>
+        <ID>
+          <String>Analytics Yelp</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>pbijzVDs0JsuWb5uLzfLSLBx0cg=2017-04-18 4:26:33 PM2017-04-18 7:42:04 PM</TimeStamp>
+        <ID>
+          <String>Business Base</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>JZxX5aRBC1R0FijE7fRTOMoK5cA=2017-04-18 2:02:28 AM2017-04-18 7:42:04 PM</TimeStamp>
+        <ID>
+          <String>Users</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>mxNsssLx33E+GnUfk2Jklipz/qc=2017-04-18 2:02:28 AM2017-04-18 7:42:04 PM</TimeStamp>
+        <ID>
+          <String>Buisness Attributes</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>lcNVUjuS8Uw9L4VW+x+JC4D4cvY=2017-04-18 2:02:28 AM2017-04-18 7:42:04 PM</TimeStamp>
+        <ID>
+          <String>Buisness Categories</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>08yIzz4/k4z5TsBxlbQ/0rLAI4o=2017-04-18 2:02:28 AM2017-04-18 7:42:04 PM</TimeStamp>
+        <ID>
+          <String>Buisness Hours</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>LWRRUuwZh54IhwCHCDtt7SSkq9g=2017-04-18 4:25:07 AM2017-04-18 7:42:04 PM</TimeStamp>
+        <ID>
+          <String>Check In All</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>XOas8u9O7/XdgPYgUBEACBXXgfc=2017-04-18 4:53:54 AM2017-04-18 7:42:04 PM</TimeStamp>
+        <ID>
+          <String>Friend V</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>X0RlEg1A/9QcY0lzeGmP7f2jz/s=2017-04-18 5:01:21 AM2017-04-18 7:42:04 PM</TimeStamp>
+        <ID>
+          <String>Elite</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>gv4uo8SwgGSyclSpAOVN/zKwcx8=2017-04-19 12:23:36 AM2017-04-18 7:42:04 PMMtdrjCMHhqxcBukKc4InioOf2ao=2017-04-19 12:23:36 AM2017-04-18 7:55:22 PM</TimeStamp>
+        <ID>
+          <String>Analytics Yelp 1</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>4xwN0PO5j/HdkDzue2fx41hXoCY=2017-04-18 1:00:44 AM2017-04-18 7:42:04 PM</TimeStamp>
+      <ID>
+        <String>cube_t1</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2017-04-19T07:27:49.843333Z</LastDeployed>
+</DeploymentSnapshot>

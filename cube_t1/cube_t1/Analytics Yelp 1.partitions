@@ -1,0 +1,105 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="504c7c79-4529-49c4-8119-65d961e6049e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Analytics Yelp 1</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Business Base</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="3dc27524-45eb-481c-b237-f203ed2baa40">
+          <ID>Business Base</ID>
+          <Name>Business Base</Name>
+          <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="6ff5a0df-0161-4751-8700-28050538ae3f">
+            <DataSourceViewID>Analytics Yelp</DataSourceViewID>
+            <TableID>dbo_Business_base</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Elite</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="df597a72-0a6d-4540-9d0b-e10c459c70e3">
+          <ID>Elite</ID>
+          <Name>Elite</Name>
+          <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="56899467-632c-448b-95c3-00b975a2352b">
+            <DataSourceViewID>Analytics Yelp</DataSourceViewID>
+            <TableID>dbo_Elite</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Review Base</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="553711b2-c729-4000-ad1c-26d2e3e9aa41">
+          <ID>Review Base</ID>
+          <Name>Review Base</Name>
+          <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="92d97b89-3891-4cc1-ba5c-0f8cd7bc70d9">
+            <DataSourceViewID>Analytics Yelp</DataSourceViewID>
+            <TableID>dbo_Review_base</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Tip Base</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="c5e9faf6-1361-4086-be1c-312d6ec4101b">
+          <ID>Tip Base</ID>
+          <Name>Tip Base</Name>
+          <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c40e7dc4-61d4-4b99-9c56-893cf1c240d1">
+            <DataSourceViewID>Analytics Yelp</DataSourceViewID>
+            <TableID>dbo_Tip_base</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Users</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="c82697a2-a56e-4ecd-9b1e-9e1ac26a6a74">
+          <ID>Users</ID>
+          <Name>Users</Name>
+          <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="85bfe100-aed0-4b68-a19c-a2aec090357d">
+            <DataSourceViewID>Analytics Yelp</DataSourceViewID>
+            <TableID>dbo_Users</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
